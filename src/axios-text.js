@@ -15,6 +15,7 @@ const sendData1 = async () => {
       }
     );
     console.log("Resposta POST:", response.data);
+    alert("Seu briefing já está sendo gerado.");
   } catch (error) {
     console.error("Erro na requisição POST:", error);
   }
@@ -31,6 +32,7 @@ const sendData2 = async () => {
       }
     );
     console.log("Resposta POST:", response.data);
+    alert("Sua persona já está sendo gerada.");
   } catch (error) {
     console.error("Erro na requisição POST:", error);
   }
@@ -47,6 +49,7 @@ const sendData3 = async () => {
       }
     );
     console.log("Resposta POST:", response.data);
+    alert("Gerando tom e voz de marca.");
   } catch (error) {
     console.error("Erro na requisição POST:", error);
   }
@@ -63,6 +66,7 @@ const sendData4 = async () => {
       }
     );
     console.log("Resposta POST:", response.data);
+    alert("Gerando árvore editorial.");
   } catch (error) {
     console.error("Erro na requisição POST:", error);
   }
